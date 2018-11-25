@@ -9,23 +9,66 @@
 /* Begin PBXBuildFile section */
 		01C0E31521A2FF4F007274DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0E31421A2FF4F007274DE /* AppDelegate.swift */; };
 		01C0E31721A2FF4F007274DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0E31621A2FF4F007274DE /* ViewController.swift */; };
-		01C0E31A21A2FF4F007274DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C0E31821A2FF4F007274DE /* Main.storyboard */; };
 		01C0E31C21A2FF51007274DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C0E31B21A2FF51007274DE /* Assets.xcassets */; };
-		01C0E31F21A2FF51007274DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C0E31D21A2FF51007274DE /* LaunchScreen.storyboard */; };
+		EE80AF1F21A9E3A300D3D3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE80AF1E21A9E3A300D3D3FD /* Main.storyboard */; };
+		EE80AF2221A9E71B00D3D3FD /* TinkoffStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF2121A9E71B00D3D3FD /* TinkoffStock.swift */; };
+		EE80AF2421A9E95D00D3D3FD /* SuccessResponce.json in Resources */ = {isa = PBXBuildFile; fileRef = EE80AF2321A9E95D00D3D3FD /* SuccessResponce.json */; };
+		EE80AF2C21A9ED2100D3D3FD /* ProjectTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF2B21A9ED2100D3D3FD /* ProjectTTests.swift */; };
+		EE80AF3C21AA043C00D3D3FD /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF3B21AA043C00D3D3FD /* EndPointType.swift */; };
+		EE80AF3E21AA057700D3D3FD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF3D21AA057700D3D3FD /* HTTPMethod.swift */; };
+		EE80AF4021AA05F200D3D3FD /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF3F21AA05F200D3D3FD /* HTTPTask.swift */; };
+		EE80AF4221AA07E600D3D3FD /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4121AA07E600D3D3FD /* ParameterEncoding.swift */; };
+		EE80AF4421AA0A0A00D3D3FD /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4321AA0A0A00D3D3FD /* URLParameterEncoder.swift */; };
+		EE80AF4621AA0DD200D3D3FD /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4521AA0DD200D3D3FD /* JSONParameterEncoder.swift */; };
+		EE80AF4821AA0F4000D3D3FD /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4721AA0F4000D3D3FD /* NetworkRouter.swift */; };
+		EE80AF4A21AA109A00D3D3FD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4921AA109A00D3D3FD /* Router.swift */; };
+		EE80AF4C21AA1AD300D3D3FD /* TinkoffStocksEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4B21AA1AD300D3D3FD /* TinkoffStocksEndPoint.swift */; };
+		EE80AF4E21AA1CE100D3D3FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80AF4D21AA1CE100D3D3FD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE80AF2E21A9ED2100D3D3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C0E30921A2FF4F007274DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C0E31021A2FF4F007274DE;
+			remoteInfo = "Project T";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01C0E31121A2FF4F007274DE /* Project T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project T.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C0E31421A2FF4F007274DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C0E31621A2FF4F007274DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01C0E31921A2FF4F007274DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01C0E31B21A2FF51007274DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		01C0E31E21A2FF51007274DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C0E32021A2FF51007274DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE80AF1E21A9E3A300D3D3FD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EE80AF2121A9E71B00D3D3FD /* TinkoffStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffStock.swift; sourceTree = "<group>"; };
+		EE80AF2321A9E95D00D3D3FD /* SuccessResponce.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SuccessResponce.json; sourceTree = "<group>"; };
+		EE80AF2921A9ED2100D3D3FD /* ProjectTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE80AF2B21A9ED2100D3D3FD /* ProjectTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTTests.swift; sourceTree = "<group>"; };
+		EE80AF2D21A9ED2100D3D3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE80AF3B21AA043C00D3D3FD /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		EE80AF3D21AA057700D3D3FD /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		EE80AF3F21AA05F200D3D3FD /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		EE80AF4121AA07E600D3D3FD /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		EE80AF4321AA0A0A00D3D3FD /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		EE80AF4521AA0DD200D3D3FD /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		EE80AF4721AA0F4000D3D3FD /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		EE80AF4921AA109A00D3D3FD /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EE80AF4B21AA1AD300D3D3FD /* TinkoffStocksEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffStocksEndPoint.swift; sourceTree = "<group>"; };
+		EE80AF4D21AA1CE100D3D3FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		01C0E30E21A2FF4F007274DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE80AF2621A9ED2100D3D3FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				01C0E31321A2FF4F007274DE /* Project T */,
+				EE80AF2A21A9ED2100D3D3FD /* ProjectTTests */,
 				01C0E31221A2FF4F007274DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				01C0E31121A2FF4F007274DE /* Project T.app */,
+				EE80AF2921A9ED2100D3D3FD /* ProjectTTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +99,99 @@
 		01C0E31321A2FF4F007274DE /* Project T */ = {
 			isa = PBXGroup;
 			children = (
-				01C0E31621A2FF4F007274DE /* ViewController.swift */,
-				01C0E31821A2FF4F007274DE /* Main.storyboard */,
+				EE80AF3621A9F60700D3D3FD /* Networking */,
+				EE80AF2021A9E6A300D3D3FD /* Model */,
+				EE80AF1D21A9E36D00D3D3FD /* Storyboards */,
+				EE80AF1C21A9E2F800D3D3FD /* ViewControllers */,
 				01C0E31421A2FF4F007274DE /* AppDelegate.swift */,
 				01C0E31B21A2FF51007274DE /* Assets.xcassets */,
-				01C0E31D21A2FF51007274DE /* LaunchScreen.storyboard */,
 				01C0E32021A2FF51007274DE /* Info.plist */,
-				01C0E32621A2FF84007274DE /* Supporting files */,
+				EE80AF2321A9E95D00D3D3FD /* SuccessResponce.json */,
 			);
-			path = "Project T";
+			name = "Project T";
+			path = "Project-T";
 			sourceTree = "<group>";
 		};
-		01C0E32621A2FF84007274DE /* Supporting files */ = {
+		EE80AF1C21A9E2F800D3D3FD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				01C0E31621A2FF4F007274DE /* ViewController.swift */,
 			);
-			path = "Supporting files";
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EE80AF1D21A9E36D00D3D3FD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF1E21A9E3A300D3D3FD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EE80AF2021A9E6A300D3D3FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF2121A9E71B00D3D3FD /* TinkoffStock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE80AF2A21A9ED2100D3D3FD /* ProjectTTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF2B21A9ED2100D3D3FD /* ProjectTTests.swift */,
+				EE80AF2D21A9ED2100D3D3FD /* Info.plist */,
+			);
+			path = ProjectTTests;
+			sourceTree = "<group>";
+		};
+		EE80AF3621A9F60700D3D3FD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF3A21A9F63900D3D3FD /* Encoding */,
+				EE80AF3921A9F63100D3D3FD /* Service */,
+				EE80AF3821A9F62A00D3D3FD /* Manager */,
+				EE80AF3721A9F61800D3D3FD /* EndPoint */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EE80AF3721A9F61800D3D3FD /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF4B21AA1AD300D3D3FD /* TinkoffStocksEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		EE80AF3821A9F62A00D3D3FD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF4D21AA1CE100D3D3FD /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EE80AF3921A9F63100D3D3FD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF3B21AA043C00D3D3FD /* EndPointType.swift */,
+				EE80AF3D21AA057700D3D3FD /* HTTPMethod.swift */,
+				EE80AF3F21AA05F200D3D3FD /* HTTPTask.swift */,
+				EE80AF4721AA0F4000D3D3FD /* NetworkRouter.swift */,
+				EE80AF4921AA109A00D3D3FD /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EE80AF3A21A9F63900D3D3FD /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				EE80AF4121AA07E600D3D3FD /* ParameterEncoding.swift */,
+				EE80AF4321AA0A0A00D3D3FD /* URLParameterEncoder.swift */,
+				EE80AF4521AA0DD200D3D3FD /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,18 +214,40 @@
 			productReference = 01C0E31121A2FF4F007274DE /* Project T.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EE80AF2821A9ED2100D3D3FD /* ProjectTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE80AF3021A9ED2100D3D3FD /* Build configuration list for PBXNativeTarget "ProjectTTests" */;
+			buildPhases = (
+				EE80AF2521A9ED2100D3D3FD /* Sources */,
+				EE80AF2621A9ED2100D3D3FD /* Frameworks */,
+				EE80AF2721A9ED2100D3D3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE80AF2F21A9ED2100D3D3FD /* PBXTargetDependency */,
+			);
+			name = ProjectTTests;
+			productName = ProjectTTests;
+			productReference = EE80AF2921A9ED2100D3D3FD /* ProjectTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		01C0E30921A2FF4F007274DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Disruptvioletta LLC";
 				TargetAttributes = {
 					01C0E31021A2FF4F007274DE = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					EE80AF2821A9ED2100D3D3FD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 01C0E31021A2FF4F007274DE;
 					};
 				};
 			};
@@ -121,6 +265,7 @@
 			projectRoot = "";
 			targets = (
 				01C0E31021A2FF4F007274DE /* Project T */,
+				EE80AF2821A9ED2100D3D3FD /* ProjectTTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,9 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C0E31F21A2FF51007274DE /* LaunchScreen.storyboard in Resources */,
 				01C0E31C21A2FF51007274DE /* Assets.xcassets in Resources */,
-				01C0E31A21A2FF4F007274DE /* Main.storyboard in Resources */,
+				EE80AF2421A9E95D00D3D3FD /* SuccessResponce.json in Resources */,
+				EE80AF1F21A9E3A300D3D3FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE80AF2721A9ED2100D3D3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,31 +295,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE80AF4621AA0DD200D3D3FD /* JSONParameterEncoder.swift in Sources */,
+				EE80AF4821AA0F4000D3D3FD /* NetworkRouter.swift in Sources */,
+				EE80AF4021AA05F200D3D3FD /* HTTPTask.swift in Sources */,
+				EE80AF4C21AA1AD300D3D3FD /* TinkoffStocksEndPoint.swift in Sources */,
+				EE80AF3C21AA043C00D3D3FD /* EndPointType.swift in Sources */,
+				EE80AF4A21AA109A00D3D3FD /* Router.swift in Sources */,
+				EE80AF4221AA07E600D3D3FD /* ParameterEncoding.swift in Sources */,
 				01C0E31721A2FF4F007274DE /* ViewController.swift in Sources */,
+				EE80AF3E21AA057700D3D3FD /* HTTPMethod.swift in Sources */,
 				01C0E31521A2FF4F007274DE /* AppDelegate.swift in Sources */,
+				EE80AF4E21AA1CE100D3D3FD /* NetworkManager.swift in Sources */,
+				EE80AF2221A9E71B00D3D3FD /* TinkoffStock.swift in Sources */,
+				EE80AF4421AA0A0A00D3D3FD /* URLParameterEncoder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE80AF2521A9ED2100D3D3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE80AF2C21A9ED2100D3D3FD /* ProjectTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		01C0E31821A2FF4F007274DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01C0E31921A2FF4F007274DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		EE80AF2F21A9ED2100D3D3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C0E31021A2FF4F007274DE /* Project T */;
+			targetProxy = EE80AF2E21A9ED2100D3D3FD /* PBXContainerItemProxy */;
 		};
-		01C0E31D21A2FF51007274DE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01C0E31E21A2FF51007274DE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		01C0E32121A2FF51007274DE /* Debug */ = {
@@ -291,8 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 787K6E59T6;
-				INFOPLIST_FILE = "Project T/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Project-T/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,8 +470,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 787K6E59T6;
-				INFOPLIST_FILE = "Project T/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Project-T/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +481,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE80AF3121A9ED2100D3D3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJ2494P78F;
+				INFOPLIST_FILE = ProjectTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.ProjectTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project T.app/Project T";
+			};
+			name = Debug;
+		};
+		EE80AF3221A9ED2100D3D3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJ2494P78F;
+				INFOPLIST_FILE = ProjectTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.ProjectTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project T.app/Project T";
 			};
 			name = Release;
 		};
@@ -339,6 +543,15 @@
 			buildConfigurations = (
 				01C0E32421A2FF51007274DE /* Debug */,
 				01C0E32521A2FF51007274DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE80AF3021A9ED2100D3D3FD /* Build configuration list for PBXNativeTarget "ProjectTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE80AF3121A9ED2100D3D3FD /* Debug */,
+				EE80AF3221A9ED2100D3D3FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
